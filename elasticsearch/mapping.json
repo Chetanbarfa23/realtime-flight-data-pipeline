@@ -1,0 +1,33 @@
+{
+  "mappings": {
+    "properties": {
+      "icao24": {
+        "type": "keyword"
+      },
+      "callsign": {
+        "type": "keyword"
+      },
+      "country": {
+        "type": "keyword"
+      },
+      "longitude": {
+        "type": "double"
+      },
+      "latitude": {
+        "type": "double"
+      },
+      "location": {
+        "type": "geo_point"
+      },
+      "altitude": {
+        "type": "double"
+      },
+      "velocity": {
+        "type": "double"
+      },
+      "processed_at": {
+        "type": "date"
+      }
+    }
+  }
+}
